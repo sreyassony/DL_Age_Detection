@@ -1,32 +1,11 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-# mounting google drive to colab virtual machine
-
-from google.colab import drive
-drive.mount('/content/drive', force_remount=True)
-
-
-get_ipython().run_line_magic('cd', "'/content/drive/MyDrive/DL_Project/Demo'")
 
 
 # ## **Loading required packages, models, functions**
-# Please run this first
 
-# In[2]:
-
-
-#If needed, run this cell!
 get_ipython().system('pip install ktrain')
 get_ipython().system('pip install -U kora')
 get_ipython().system('pip install ffmpeg-python')
 get_ipython().system('pip install tensorflow_addons')
-
-
-# In[3]:
 
 
 import numpy as np
@@ -52,76 +31,19 @@ from pathlib import Path
 import tensorflow_addons as tfa
 
 #Importing the Haar Cascades classifier XML file.
-face_cascade = cv2.CascadeClassifier("/content/drive/MyDrive/DL_Project/Final_Model/haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier("DL_Age_Detection/Final_Model/haarcascade_frontalface_default.xml")
 
-
-# In[4]:
-
-
-# class AdamWeightDecay(keras.layers.Layer):
-#     def __init__(self, name1, learning_rate, decay, beta_1, beta_2, epsilon, amsgrad, weight_decay_rate, units=32):
-#         super(AdamWeightDecay, self).__init__()
-#         self.units = units
-#         self.name1 = name1
-#         self.learning_rate = learning_rate
-#         self.decay = decay
-#         self.beta_1 = beta_1
-#         self.beta_2 = beta_2
-#         self.epsilon = epsilon
-#         self.amsgrad = amsgrad
-#         self.weight_decay_rate = weight_decay_rate
-
-#     def build(self, input_shape):
-#         self.w = self.add_weight(
-#             shape=(input_shape[-1], self.units,self.name1,self.learning_rate,self.decay,self.beta_1,self.beta_2,self.epsilon,self.amsgrad,self.weight_decay_rate),
-#             initializer="random_normal",
-#             trainable=True,
-#         )
-#         self.b = self.add_weight(
-#             shape=(self.units,self.name1,self.learning_rate,self.decay,self.beta_1,self.beta_2,self.epsilon,self.amsgrad,self.weight_decay_rate), initializer="random_normal", trainable=True
-#         )
-
-#     def call(self, inputs):
-#         return tf.matmul(inputs, self.w) + self.b
-
-#     def get_config(self):
-#         config = super(AdamWeightDecay, self).get_config()
-#         config.update({"units": self.units,
-#                        "name1": self.name1,
-#                        "learning_rate": self.learning_rate,
-#                        "decay": self.decay,
-#                        "beta_1": self.beta_1,
-#                        "beta_2": self.beta_2,
-#                        "epsilon": self.epsilon,
-#                        "amsgrad": self.amsgrad,
-#                        "weight_decay_rate": self.weight_decay_rate                       
-#                        })
-#         return config
-
-
-# In[5]:
 
 
 # #Loading the trained model and the preprocessed model
-# model = load_model("/content/drive/MyDrive/DL_Project/Final_Model/tf_model.h5")
-# preproc = pickle.load(open("/content/drive/MyDrive/DL_Project/Final_Model/tf_model.preproc",'rb'))
 
-# prediction = ktrain.get_predictor(model,preproc)
-
-
-# In[6]:
-
-
-model1 = load_model("/content/drive/My Drive/DL_Project/Final_Model/tf_model_with_weight_decay.h5",compile=False)
-preproc = pickle.load(open("/content/drive/My Drive/DL_Project/Final_Model/tf_model_with_weight_decay.preproc",'rb'))
+model1 = load_model("DL_Age_Detection/Final_Model/tf_model_with_weight_decay.h5",compile=False)
+preproc = pickle.load(open("DL_Age_Detection/Final_Model/tf_model_with_weight_decay.preproc",'rb'))
 
 
 opt=tfa.optimizers.AdamW(weight_decay=10**-3,learning_rate=10**-4 )
 model1.compile(loss='MAE',optimizer=opt)
 prediction = ktrain.get_predictor(model1,preproc)
-
-
-# In[7]:
 
 
 #Defining a function to shrink the detected face region by a scale for better prediction in the model.
@@ -132,9 +54,6 @@ def shrink_face_roi(x, y, w, h, scale=0.8):
     w_new = int(w * scale)
     h_new = int(h * scale)
     return (x_new, y_new, w_new, h_new)
-
-
-# In[8]:
 
 
 #Defining a function to create the predicted age overlay on the image by centering the text.
@@ -165,9 +84,6 @@ def create_age_text(img, age_val, x, y, w, h):
     return (face_age_background, face_age_text)
 
 
-# In[9]:
-
-
 #Defining a function to find faces in an image and then determine the age for each face found in the image.
 def determine_age(img):
 
@@ -189,17 +105,14 @@ def determine_age(img):
         #x2, y2, w2, h2 = x,y,w,h
         face_roi = img_gray[y2:y2+h2, x2:x2+w2]
         face_roi = cv2.resize(face_roi, (224, 224))
-        cv2.imwrite(os.path.join("/content/drive/MyDrive/DL_Project/Demo", "runtime_picture.jpg"), face_roi)
-        face_age = round(prediction.predict_filename("/content/drive/MyDrive/DL_Project/Demo/runtime_picture.jpg")[0])
+        cv2.imwrite(os.path.join("DL_Age_Detection/Demo", "runtime_picture.jpg"), face_roi)
+        face_age = round(prediction.predict_filename("DL_Age_Detection/Demo/runtime_picture.jpg")[0])
         os.remove("runtime_picture.jpg")
         
         # Calling the above defined function to create the predicted age overlay on the image.
         face_age_background, face_age_text = create_age_text(img_copy, face_age, x, y, w, h)
 
     return img_copy
-
-
-# In[10]:
 
 
 #Function to save the image with age in the same location
@@ -211,10 +124,6 @@ def new_img_name(org_img_path):
     new_img_path = os.path.join(img_path, new_img_name_ext)
 
     return new_img_path
-
-
-# In[11]:
-
 
 #Function to determine age from image
 def determine_age_from_image(my_image):
@@ -230,9 +139,6 @@ def determine_age_from_image(my_image):
     print("Error: Could not save image!")
 
   return(age_img)
-
-
-# In[12]:
 
 
 #Function to open webcam, capture image and determine age
@@ -280,9 +186,6 @@ def determine_age_from_webcam(filename='my_picture_webcam.jpg', quality=0.8):
   return webcam_image_with_age
 
 
-# In[13]:
-
-
 #Function to save video with age at the same location
 def new_vid_name(org_vid_path):
     vid_path, vid_name_ext = os.path.split(org_vid_path)
@@ -292,9 +195,6 @@ def new_vid_name(org_vid_path):
     new_vid_path = os.path.join(vid_path, new_vid_name_ext)
 
     return new_vid_path
-
-
-# In[14]:
 
 
 #Function to determine age from a video
@@ -346,10 +246,6 @@ def determine_age_from_video(my_video):
 
 
 # ## **Age Determination on Image**
-
-# In[ ]:
-
-
 # Provide the image filepath as a string below.
 my_image = "my_picture.jpg"
 
@@ -360,12 +256,7 @@ try:
 except:
   print("")
 
-
 # ## **Age Determination on Video**
-
-# In[ ]:
-
-
 # Provide the video filepath as a string below
 my_video = "my_video.mp4"
 
@@ -377,10 +268,6 @@ HTML(f"""<video src={url} width=500 controls/>""")
 
 
 # ## **Age Determination on Webcam**
-
-# In[ ]:
-
-
 image_with_age_webcam = determine_age_from_webcam()
 
 cv2_imshow(image_with_age_webcam)
