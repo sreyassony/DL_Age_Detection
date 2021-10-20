@@ -1,30 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-# mounting google drive to colab virtual machine
-
-from google.colab import drive
-drive.mount('/content/drive', force_remount=True)
-
-
-
-
-# In[9]:
-
-
+#Loading the dataset. Need to provide the right file path
 get_ipython().run_line_magic('cd', "'/content/drive/MyDrive/DL_Project/Preprocessing/'")
-
-
-# In[3]:
 
 
 get_ipython().system('pip install face_recognition')
 
-
-# In[4]:
 
 
 import numpy as np
@@ -41,8 +20,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
 
-
-# In[12]:
 
 
 # replace this image directory with yours
@@ -186,12 +163,6 @@ plt.ylim((bottom,top+500))
 
 
 plt.show()
-
-
-# In[ ]:
-
-
-
 
 
 # **Reference : **
