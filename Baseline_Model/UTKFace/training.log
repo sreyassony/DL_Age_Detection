@@ -1,0 +1,508 @@
+PyTorch Version: 1.7.0
+CUDA device available: False
+Using CUDA device: cpu
+Random Seed: 42
+Output Path: /home/bu20/2021/UP_courses/DL/project/UTK_final/
+Script: run_model.py
+Epoch: 001/050 | Batch 0000/0190 | Cost: 36.1756
+Epoch: 001/050 | Batch 0025/0190 | Cost: 25.7495
+Epoch: 001/050 | Batch 0050/0190 | Cost: 16.7139
+Epoch: 001/050 | Batch 0075/0190 | Cost: 9.7351
+Epoch: 001/050 | Batch 0100/0190 | Cost: 10.1338
+Epoch: 001/050 | Batch 0125/0190 | Cost: 8.7488
+Epoch: 001/050 | Batch 0150/0190 | Cost: 8.2387
+Epoch: 001/050 | Batch 0175/0190 | Cost: 6.9106
+CS/MAE/RMSE: | Current Valid: 0.21/10.50/11.82 Ep. 0 | Best Valid :                0.21/10.50/11.82 Ep. 0
+Time elapsed: 11.83 min
+Epoch: 002/050 | Batch 0000/0190 | Cost: 8.0233
+Epoch: 002/050 | Batch 0025/0190 | Cost: 8.3228
+Epoch: 002/050 | Batch 0050/0190 | Cost: 6.7016
+Epoch: 002/050 | Batch 0075/0190 | Cost: 5.7807
+Epoch: 002/050 | Batch 0100/0190 | Cost: 8.7997
+Epoch: 002/050 | Batch 0125/0190 | Cost: 8.1735
+Epoch: 002/050 | Batch 0150/0190 | Cost: 6.7243
+Epoch: 002/050 | Batch 0175/0190 | Cost: 6.9680
+CS/MAE/RMSE: | Current Valid: 0.18/10.72/12.02 Ep. 1 | Best Valid :                0.21/10.50/11.82 Ep. 0
+Time elapsed: 23.88 min
+Epoch: 003/050 | Batch 0000/0190 | Cost: 7.0378
+Epoch: 003/050 | Batch 0025/0190 | Cost: 7.3788
+Epoch: 003/050 | Batch 0050/0190 | Cost: 6.3949
+Epoch: 003/050 | Batch 0075/0190 | Cost: 5.5940
+Epoch: 003/050 | Batch 0100/0190 | Cost: 8.1482
+Epoch: 003/050 | Batch 0125/0190 | Cost: 8.1534
+Epoch: 003/050 | Batch 0150/0190 | Cost: 6.4867
+Epoch: 003/050 | Batch 0175/0190 | Cost: 6.3199
+CS/MAE/RMSE: | Current Valid: 0.24/9.39/10.67 Ep. 2 | Best Valid :                0.24/9.39/10.67 Ep. 2
+Time elapsed: 35.60 min
+Epoch: 004/050 | Batch 0000/0190 | Cost: 6.4589
+Epoch: 004/050 | Batch 0025/0190 | Cost: 6.8352
+Epoch: 004/050 | Batch 0050/0190 | Cost: 5.6422
+Epoch: 004/050 | Batch 0075/0190 | Cost: 4.4802
+Epoch: 004/050 | Batch 0100/0190 | Cost: 7.5791
+Epoch: 004/050 | Batch 0125/0190 | Cost: 7.7054
+Epoch: 004/050 | Batch 0150/0190 | Cost: 5.9761
+Epoch: 004/050 | Batch 0175/0190 | Cost: 6.4016
+CS/MAE/RMSE: | Current Valid: 0.27/8.64/10.04 Ep. 3 | Best Valid :                0.27/8.64/10.04 Ep. 3
+Time elapsed: 47.33 min
+Epoch: 005/050 | Batch 0000/0190 | Cost: 6.4799
+Epoch: 005/050 | Batch 0025/0190 | Cost: 6.5521
+Epoch: 005/050 | Batch 0050/0190 | Cost: 5.6491
+Epoch: 005/050 | Batch 0075/0190 | Cost: 4.2693
+Epoch: 005/050 | Batch 0100/0190 | Cost: 7.6955
+Epoch: 005/050 | Batch 0125/0190 | Cost: 7.5672
+Epoch: 005/050 | Batch 0150/0190 | Cost: 6.2347
+Epoch: 005/050 | Batch 0175/0190 | Cost: 5.5779
+CS/MAE/RMSE: | Current Valid: 0.28/8.53/10.00 Ep. 4 | Best Valid :                0.28/8.53/10.00 Ep. 4
+Time elapsed: 59.05 min
+Epoch: 006/050 | Batch 0000/0190 | Cost: 6.1141
+Epoch: 006/050 | Batch 0025/0190 | Cost: 6.5561
+Epoch: 006/050 | Batch 0050/0190 | Cost: 5.4709
+Epoch: 006/050 | Batch 0075/0190 | Cost: 3.9621
+Epoch: 006/050 | Batch 0100/0190 | Cost: 8.0366
+Epoch: 006/050 | Batch 0125/0190 | Cost: 7.8006
+Epoch: 006/050 | Batch 0150/0190 | Cost: 5.7451
+Epoch: 006/050 | Batch 0175/0190 | Cost: 6.1318
+CS/MAE/RMSE: | Current Valid: 0.33/7.86/9.38 Ep. 5 | Best Valid :                0.33/7.86/9.38 Ep. 5
+Time elapsed: 70.66 min
+Epoch: 007/050 | Batch 0000/0190 | Cost: 6.3557
+Epoch: 007/050 | Batch 0025/0190 | Cost: 6.1190
+Epoch: 007/050 | Batch 0050/0190 | Cost: 5.4886
+Epoch: 007/050 | Batch 0075/0190 | Cost: 4.5170
+Epoch: 007/050 | Batch 0100/0190 | Cost: 7.1753
+Epoch: 007/050 | Batch 0125/0190 | Cost: 7.1582
+Epoch: 007/050 | Batch 0150/0190 | Cost: 5.7824
+Epoch: 007/050 | Batch 0175/0190 | Cost: 5.4126
+CS/MAE/RMSE: | Current Valid: 0.27/8.64/9.95 Ep. 6 | Best Valid :                0.33/7.86/9.38 Ep. 5
+Time elapsed: 82.15 min
+Epoch: 008/050 | Batch 0000/0190 | Cost: 5.5943
+Epoch: 008/050 | Batch 0025/0190 | Cost: 6.1335
+Epoch: 008/050 | Batch 0050/0190 | Cost: 4.8510
+Epoch: 008/050 | Batch 0075/0190 | Cost: 4.1406
+Epoch: 008/050 | Batch 0100/0190 | Cost: 7.1568
+Epoch: 008/050 | Batch 0125/0190 | Cost: 7.1685
+Epoch: 008/050 | Batch 0150/0190 | Cost: 5.3669
+Epoch: 008/050 | Batch 0175/0190 | Cost: 5.2972
+CS/MAE/RMSE: | Current Valid: 0.37/7.84/9.76 Ep. 7 | Best Valid :                0.37/7.84/9.76 Ep. 7
+Time elapsed: 93.81 min
+Epoch: 009/050 | Batch 0000/0190 | Cost: 5.7094
+Epoch: 009/050 | Batch 0025/0190 | Cost: 5.9774
+Epoch: 009/050 | Batch 0050/0190 | Cost: 5.1316
+Epoch: 009/050 | Batch 0075/0190 | Cost: 4.3476
+Epoch: 009/050 | Batch 0100/0190 | Cost: 7.2809
+Epoch: 009/050 | Batch 0125/0190 | Cost: 6.9695
+Epoch: 009/050 | Batch 0150/0190 | Cost: 5.4078
+Epoch: 009/050 | Batch 0175/0190 | Cost: 5.4855
+CS/MAE/RMSE: | Current Valid: 0.36/7.74/9.37 Ep. 8 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 105.38 min
+Epoch: 010/050 | Batch 0000/0190 | Cost: 5.7356
+Epoch: 010/050 | Batch 0025/0190 | Cost: 5.5008
+Epoch: 010/050 | Batch 0050/0190 | Cost: 5.1650
+Epoch: 010/050 | Batch 0075/0190 | Cost: 4.4334
+Epoch: 010/050 | Batch 0100/0190 | Cost: 6.9279
+Epoch: 010/050 | Batch 0125/0190 | Cost: 6.7714
+Epoch: 010/050 | Batch 0150/0190 | Cost: 5.5897
+Epoch: 010/050 | Batch 0175/0190 | Cost: 4.9444
+CS/MAE/RMSE: | Current Valid: 0.26/9.07/10.56 Ep. 9 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 117.04 min
+Epoch: 011/050 | Batch 0000/0190 | Cost: 5.8551
+Epoch: 011/050 | Batch 0025/0190 | Cost: 5.7491
+Epoch: 011/050 | Batch 0050/0190 | Cost: 5.2666
+Epoch: 011/050 | Batch 0075/0190 | Cost: 4.7312
+Epoch: 011/050 | Batch 0100/0190 | Cost: 6.5492
+Epoch: 011/050 | Batch 0125/0190 | Cost: 6.7051
+Epoch: 011/050 | Batch 0150/0190 | Cost: 5.0096
+Epoch: 011/050 | Batch 0175/0190 | Cost: 5.0737
+CS/MAE/RMSE: | Current Valid: 0.28/8.66/10.11 Ep. 10 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 128.67 min
+Epoch: 012/050 | Batch 0000/0190 | Cost: 5.2998
+Epoch: 012/050 | Batch 0025/0190 | Cost: 5.5821
+Epoch: 012/050 | Batch 0050/0190 | Cost: 5.2402
+Epoch: 012/050 | Batch 0075/0190 | Cost: 4.0651
+Epoch: 012/050 | Batch 0100/0190 | Cost: 6.6190
+Epoch: 012/050 | Batch 0125/0190 | Cost: 6.0739
+Epoch: 012/050 | Batch 0150/0190 | Cost: 5.5078
+Epoch: 012/050 | Batch 0175/0190 | Cost: 5.3885
+CS/MAE/RMSE: | Current Valid: 0.19/12.67/14.64 Ep. 11 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 140.18 min
+Epoch: 013/050 | Batch 0000/0190 | Cost: 5.2585
+Epoch: 013/050 | Batch 0025/0190 | Cost: 5.1736
+Epoch: 013/050 | Batch 0050/0190 | Cost: 4.7764
+Epoch: 013/050 | Batch 0075/0190 | Cost: 4.4662
+Epoch: 013/050 | Batch 0100/0190 | Cost: 6.3573
+Epoch: 013/050 | Batch 0125/0190 | Cost: 6.3996
+Epoch: 013/050 | Batch 0150/0190 | Cost: 5.0258
+Epoch: 013/050 | Batch 0175/0190 | Cost: 5.1838
+CS/MAE/RMSE: | Current Valid: 0.27/9.25/10.89 Ep. 12 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 151.74 min
+Epoch: 014/050 | Batch 0000/0190 | Cost: 5.2115
+Epoch: 014/050 | Batch 0025/0190 | Cost: 5.9356
+Epoch: 014/050 | Batch 0050/0190 | Cost: 4.9075
+Epoch: 014/050 | Batch 0075/0190 | Cost: 4.1304
+Epoch: 014/050 | Batch 0100/0190 | Cost: 6.6589
+Epoch: 014/050 | Batch 0125/0190 | Cost: 5.7140
+Epoch: 014/050 | Batch 0150/0190 | Cost: 4.9045
+Epoch: 014/050 | Batch 0175/0190 | Cost: 4.9176
+CS/MAE/RMSE: | Current Valid: 0.29/9.05/10.75 Ep. 13 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 163.26 min
+Epoch: 015/050 | Batch 0000/0190 | Cost: 5.2108
+Epoch: 015/050 | Batch 0025/0190 | Cost: 5.6994
+Epoch: 015/050 | Batch 0050/0190 | Cost: 4.6468
+Epoch: 015/050 | Batch 0075/0190 | Cost: 4.3868
+Epoch: 015/050 | Batch 0100/0190 | Cost: 6.3742
+Epoch: 015/050 | Batch 0125/0190 | Cost: 5.8517
+Epoch: 015/050 | Batch 0150/0190 | Cost: 4.4686
+Epoch: 015/050 | Batch 0175/0190 | Cost: 5.0543
+CS/MAE/RMSE: | Current Valid: 0.24/9.78/11.47 Ep. 14 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 174.92 min
+Epoch: 016/050 | Batch 0000/0190 | Cost: 5.3454
+Epoch: 016/050 | Batch 0025/0190 | Cost: 5.0801
+Epoch: 016/050 | Batch 0050/0190 | Cost: 4.9722
+Epoch: 016/050 | Batch 0075/0190 | Cost: 4.1382
+Epoch: 016/050 | Batch 0100/0190 | Cost: 6.2262
+Epoch: 016/050 | Batch 0125/0190 | Cost: 6.0101
+Epoch: 016/050 | Batch 0150/0190 | Cost: 4.7563
+Epoch: 016/050 | Batch 0175/0190 | Cost: 4.9859
+CS/MAE/RMSE: | Current Valid: 0.32/8.39/10.13 Ep. 15 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 186.47 min
+Epoch: 017/050 | Batch 0000/0190 | Cost: 4.5120
+Epoch: 017/050 | Batch 0025/0190 | Cost: 5.4008
+Epoch: 017/050 | Batch 0050/0190 | Cost: 4.6640
+Epoch: 017/050 | Batch 0075/0190 | Cost: 3.9603
+Epoch: 017/050 | Batch 0100/0190 | Cost: 6.0278
+Epoch: 017/050 | Batch 0125/0190 | Cost: 6.0995
+Epoch: 017/050 | Batch 0150/0190 | Cost: 4.8832
+Epoch: 017/050 | Batch 0175/0190 | Cost: 4.5147
+CS/MAE/RMSE: | Current Valid: 0.29/9.94/11.95 Ep. 16 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 198.11 min
+Epoch: 018/050 | Batch 0000/0190 | Cost: 4.8770
+Epoch: 018/050 | Batch 0025/0190 | Cost: 4.9727
+Epoch: 018/050 | Batch 0050/0190 | Cost: 4.9134
+Epoch: 018/050 | Batch 0075/0190 | Cost: 4.3791
+Epoch: 018/050 | Batch 0100/0190 | Cost: 5.9670
+Epoch: 018/050 | Batch 0125/0190 | Cost: 5.7774
+Epoch: 018/050 | Batch 0150/0190 | Cost: 4.7259
+Epoch: 018/050 | Batch 0175/0190 | Cost: 4.3250
+CS/MAE/RMSE: | Current Valid: 0.29/10.30/12.56 Ep. 17 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 209.68 min
+Epoch: 019/050 | Batch 0000/0190 | Cost: 4.6897
+Epoch: 019/050 | Batch 0025/0190 | Cost: 4.9538
+Epoch: 019/050 | Batch 0050/0190 | Cost: 4.3285
+Epoch: 019/050 | Batch 0075/0190 | Cost: 4.5722
+Epoch: 019/050 | Batch 0100/0190 | Cost: 5.8290
+Epoch: 019/050 | Batch 0125/0190 | Cost: 6.0040
+Epoch: 019/050 | Batch 0150/0190 | Cost: 4.9227
+Epoch: 019/050 | Batch 0175/0190 | Cost: 4.7287
+CS/MAE/RMSE: | Current Valid: 0.33/8.96/10.88 Ep. 18 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 221.29 min
+Epoch: 020/050 | Batch 0000/0190 | Cost: 5.1336
+Epoch: 020/050 | Batch 0025/0190 | Cost: 4.9436
+Epoch: 020/050 | Batch 0050/0190 | Cost: 4.2579
+Epoch: 020/050 | Batch 0075/0190 | Cost: 4.1038
+Epoch: 020/050 | Batch 0100/0190 | Cost: 5.8188
+Epoch: 020/050 | Batch 0125/0190 | Cost: 5.4858
+Epoch: 020/050 | Batch 0150/0190 | Cost: 4.6028
+Epoch: 020/050 | Batch 0175/0190 | Cost: 4.7981
+CS/MAE/RMSE: | Current Valid: 0.29/9.92/12.05 Ep. 19 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 232.93 min
+Epoch: 021/050 | Batch 0000/0190 | Cost: 4.4607
+Epoch: 021/050 | Batch 0025/0190 | Cost: 4.8324
+Epoch: 021/050 | Batch 0050/0190 | Cost: 4.2903
+Epoch: 021/050 | Batch 0075/0190 | Cost: 4.1333
+Epoch: 021/050 | Batch 0100/0190 | Cost: 6.0582
+Epoch: 021/050 | Batch 0125/0190 | Cost: 6.3380
+Epoch: 021/050 | Batch 0150/0190 | Cost: 4.4426
+Epoch: 021/050 | Batch 0175/0190 | Cost: 5.0763
+CS/MAE/RMSE: | Current Valid: 0.26/10.76/12.80 Ep. 20 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 244.56 min
+Epoch: 022/050 | Batch 0000/0190 | Cost: 4.7281
+Epoch: 022/050 | Batch 0025/0190 | Cost: 5.1148
+Epoch: 022/050 | Batch 0050/0190 | Cost: 4.1172
+Epoch: 022/050 | Batch 0075/0190 | Cost: 4.3004
+Epoch: 022/050 | Batch 0100/0190 | Cost: 5.6729
+Epoch: 022/050 | Batch 0125/0190 | Cost: 5.3456
+Epoch: 022/050 | Batch 0150/0190 | Cost: 4.8489
+Epoch: 022/050 | Batch 0175/0190 | Cost: 3.9629
+CS/MAE/RMSE: | Current Valid: 0.29/9.53/11.49 Ep. 21 | Best Valid :                0.36/7.74/9.37 Ep. 8
+Time elapsed: 256.16 min
+Epoch: 023/050 | Batch 0000/0190 | Cost: 4.7735
+Epoch: 023/050 | Batch 0025/0190 | Cost: 4.9000
+Epoch: 023/050 | Batch 0050/0190 | Cost: 4.3637
+Epoch: 023/050 | Batch 0075/0190 | Cost: 4.3873
+Epoch: 023/050 | Batch 0100/0190 | Cost: 6.4391
+Epoch: 023/050 | Batch 0125/0190 | Cost: 5.2761
+Epoch: 023/050 | Batch 0150/0190 | Cost: 4.0758
+Epoch: 023/050 | Batch 0175/0190 | Cost: 4.4415
+CS/MAE/RMSE: | Current Valid: 0.42/7.35/9.26 Ep. 22 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 268.34 min
+Epoch: 024/050 | Batch 0000/0190 | Cost: 4.9829
+Epoch: 024/050 | Batch 0025/0190 | Cost: 4.6027
+Epoch: 024/050 | Batch 0050/0190 | Cost: 4.1296
+Epoch: 024/050 | Batch 0075/0190 | Cost: 4.5446
+Epoch: 024/050 | Batch 0100/0190 | Cost: 5.4985
+Epoch: 024/050 | Batch 0125/0190 | Cost: 5.2730
+Epoch: 024/050 | Batch 0150/0190 | Cost: 4.4924
+Epoch: 024/050 | Batch 0175/0190 | Cost: 4.4404
+CS/MAE/RMSE: | Current Valid: 0.29/10.28/12.49 Ep. 23 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 280.64 min
+Epoch: 025/050 | Batch 0000/0190 | Cost: 4.2562
+Epoch: 025/050 | Batch 0025/0190 | Cost: 4.5766
+Epoch: 025/050 | Batch 0050/0190 | Cost: 3.4659
+Epoch: 025/050 | Batch 0075/0190 | Cost: 4.2495
+Epoch: 025/050 | Batch 0100/0190 | Cost: 6.0380
+Epoch: 025/050 | Batch 0125/0190 | Cost: 5.6092
+Epoch: 025/050 | Batch 0150/0190 | Cost: 4.1277
+Epoch: 025/050 | Batch 0175/0190 | Cost: 4.1007
+CS/MAE/RMSE: | Current Valid: 0.25/11.45/13.71 Ep. 24 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 293.96 min
+Epoch: 026/050 | Batch 0000/0190 | Cost: 4.1257
+Epoch: 026/050 | Batch 0025/0190 | Cost: 4.4005
+Epoch: 026/050 | Batch 0050/0190 | Cost: 3.6362
+Epoch: 026/050 | Batch 0075/0190 | Cost: 4.2775
+Epoch: 026/050 | Batch 0100/0190 | Cost: 5.7311
+Epoch: 026/050 | Batch 0125/0190 | Cost: 4.9506
+Epoch: 026/050 | Batch 0150/0190 | Cost: 3.6828
+Epoch: 026/050 | Batch 0175/0190 | Cost: 4.2849
+CS/MAE/RMSE: | Current Valid: 0.19/14.22/16.62 Ep. 25 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 307.32 min
+Epoch: 027/050 | Batch 0000/0190 | Cost: 4.2159
+Epoch: 027/050 | Batch 0025/0190 | Cost: 4.6086
+Epoch: 027/050 | Batch 0050/0190 | Cost: 3.4949
+Epoch: 027/050 | Batch 0075/0190 | Cost: 4.3358
+Epoch: 027/050 | Batch 0100/0190 | Cost: 5.2028
+Epoch: 027/050 | Batch 0125/0190 | Cost: 4.9917
+Epoch: 027/050 | Batch 0150/0190 | Cost: 4.1393
+Epoch: 027/050 | Batch 0175/0190 | Cost: 4.0734
+CS/MAE/RMSE: | Current Valid: 0.32/9.17/11.22 Ep. 26 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 320.64 min
+Epoch: 028/050 | Batch 0000/0190 | Cost: 4.0010
+Epoch: 028/050 | Batch 0025/0190 | Cost: 5.1083
+Epoch: 028/050 | Batch 0050/0190 | Cost: 3.3403
+Epoch: 028/050 | Batch 0075/0190 | Cost: 4.4076
+Epoch: 028/050 | Batch 0100/0190 | Cost: 5.8366
+Epoch: 028/050 | Batch 0125/0190 | Cost: 4.9800
+Epoch: 028/050 | Batch 0150/0190 | Cost: 4.5031
+Epoch: 028/050 | Batch 0175/0190 | Cost: 4.3855
+CS/MAE/RMSE: | Current Valid: 0.22/12.85/15.25 Ep. 27 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 334.09 min
+Epoch: 029/050 | Batch 0000/0190 | Cost: 4.3369
+Epoch: 029/050 | Batch 0025/0190 | Cost: 4.8336
+Epoch: 029/050 | Batch 0050/0190 | Cost: 3.3728
+Epoch: 029/050 | Batch 0075/0190 | Cost: 4.0138
+Epoch: 029/050 | Batch 0100/0190 | Cost: 5.2257
+Epoch: 029/050 | Batch 0125/0190 | Cost: 4.7335
+Epoch: 029/050 | Batch 0150/0190 | Cost: 4.0274
+Epoch: 029/050 | Batch 0175/0190 | Cost: 4.0674
+CS/MAE/RMSE: | Current Valid: 0.23/12.59/14.96 Ep. 28 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 347.66 min
+Epoch: 030/050 | Batch 0000/0190 | Cost: 3.2775
+Epoch: 030/050 | Batch 0025/0190 | Cost: 4.0832
+Epoch: 030/050 | Batch 0050/0190 | Cost: 3.5769
+Epoch: 030/050 | Batch 0075/0190 | Cost: 3.6221
+Epoch: 030/050 | Batch 0100/0190 | Cost: 5.2345
+Epoch: 030/050 | Batch 0125/0190 | Cost: 4.7006
+Epoch: 030/050 | Batch 0150/0190 | Cost: 4.1900
+Epoch: 030/050 | Batch 0175/0190 | Cost: 3.7700
+CS/MAE/RMSE: | Current Valid: 0.33/9.36/11.62 Ep. 29 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 359.25 min
+Epoch: 031/050 | Batch 0000/0190 | Cost: 3.7290
+Epoch: 031/050 | Batch 0025/0190 | Cost: 4.3760
+Epoch: 031/050 | Batch 0050/0190 | Cost: 3.2923
+Epoch: 031/050 | Batch 0075/0190 | Cost: 3.8648
+Epoch: 031/050 | Batch 0100/0190 | Cost: 5.6343
+Epoch: 031/050 | Batch 0125/0190 | Cost: 5.3459
+Epoch: 031/050 | Batch 0150/0190 | Cost: 3.9776
+Epoch: 031/050 | Batch 0175/0190 | Cost: 3.7644
+CS/MAE/RMSE: | Current Valid: 0.30/10.66/13.08 Ep. 30 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 370.89 min
+Epoch: 032/050 | Batch 0000/0190 | Cost: 4.1251
+Epoch: 032/050 | Batch 0025/0190 | Cost: 4.1056
+Epoch: 032/050 | Batch 0050/0190 | Cost: 3.6079
+Epoch: 032/050 | Batch 0075/0190 | Cost: 4.1398
+Epoch: 032/050 | Batch 0100/0190 | Cost: 5.0641
+Epoch: 032/050 | Batch 0125/0190 | Cost: 4.5327
+Epoch: 032/050 | Batch 0150/0190 | Cost: 3.9063
+Epoch: 032/050 | Batch 0175/0190 | Cost: 3.8518
+CS/MAE/RMSE: | Current Valid: 0.26/11.42/13.73 Ep. 31 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 382.42 min
+Epoch: 033/050 | Batch 0000/0190 | Cost: 3.8658
+Epoch: 033/050 | Batch 0025/0190 | Cost: 3.9521
+Epoch: 033/050 | Batch 0050/0190 | Cost: 2.9921
+Epoch: 033/050 | Batch 0075/0190 | Cost: 3.8210
+Epoch: 033/050 | Batch 0100/0190 | Cost: 4.5312
+Epoch: 033/050 | Batch 0125/0190 | Cost: 4.6471
+Epoch: 033/050 | Batch 0150/0190 | Cost: 4.1413
+Epoch: 033/050 | Batch 0175/0190 | Cost: 4.5174
+CS/MAE/RMSE: | Current Valid: 0.30/10.02/12.30 Ep. 32 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 393.93 min
+Epoch: 034/050 | Batch 0000/0190 | Cost: 3.7871
+Epoch: 034/050 | Batch 0025/0190 | Cost: 4.5780
+Epoch: 034/050 | Batch 0050/0190 | Cost: 3.5785
+Epoch: 034/050 | Batch 0075/0190 | Cost: 3.6442
+Epoch: 034/050 | Batch 0100/0190 | Cost: 4.7639
+Epoch: 034/050 | Batch 0125/0190 | Cost: 4.6905
+Epoch: 034/050 | Batch 0150/0190 | Cost: 3.8063
+Epoch: 034/050 | Batch 0175/0190 | Cost: 3.8199
+CS/MAE/RMSE: | Current Valid: 0.28/11.02/13.42 Ep. 33 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 405.72 min
+Epoch: 035/050 | Batch 0000/0190 | Cost: 3.5439
+Epoch: 035/050 | Batch 0025/0190 | Cost: 3.8438
+Epoch: 035/050 | Batch 0050/0190 | Cost: 3.5972
+Epoch: 035/050 | Batch 0075/0190 | Cost: 3.2911
+Epoch: 035/050 | Batch 0100/0190 | Cost: 5.3083
+Epoch: 035/050 | Batch 0125/0190 | Cost: 4.5310
+Epoch: 035/050 | Batch 0150/0190 | Cost: 3.9536
+Epoch: 035/050 | Batch 0175/0190 | Cost: 3.6510
+CS/MAE/RMSE: | Current Valid: 0.25/12.20/14.80 Ep. 34 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 417.44 min
+Epoch: 036/050 | Batch 0000/0190 | Cost: 4.0511
+Epoch: 036/050 | Batch 0025/0190 | Cost: 3.8216
+Epoch: 036/050 | Batch 0050/0190 | Cost: 3.0790
+Epoch: 036/050 | Batch 0075/0190 | Cost: 3.7271
+Epoch: 036/050 | Batch 0100/0190 | Cost: 4.6942
+Epoch: 036/050 | Batch 0125/0190 | Cost: 3.9834
+Epoch: 036/050 | Batch 0150/0190 | Cost: 3.6731
+Epoch: 036/050 | Batch 0175/0190 | Cost: 3.7001
+CS/MAE/RMSE: | Current Valid: 0.37/8.22/10.21 Ep. 35 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 429.08 min
+Epoch: 037/050 | Batch 0000/0190 | Cost: 3.3172
+Epoch: 037/050 | Batch 0025/0190 | Cost: 3.7136
+Epoch: 037/050 | Batch 0050/0190 | Cost: 3.3127
+Epoch: 037/050 | Batch 0075/0190 | Cost: 3.9873
+Epoch: 037/050 | Batch 0100/0190 | Cost: 4.3979
+Epoch: 037/050 | Batch 0125/0190 | Cost: 4.6282
+Epoch: 037/050 | Batch 0150/0190 | Cost: 4.0341
+Epoch: 037/050 | Batch 0175/0190 | Cost: 3.4902
+CS/MAE/RMSE: | Current Valid: 0.35/8.83/11.07 Ep. 36 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 440.70 min
+Epoch: 038/050 | Batch 0000/0190 | Cost: 3.6344
+Epoch: 038/050 | Batch 0025/0190 | Cost: 3.8936
+Epoch: 038/050 | Batch 0050/0190 | Cost: 3.3866
+Epoch: 038/050 | Batch 0075/0190 | Cost: 3.6495
+Epoch: 038/050 | Batch 0100/0190 | Cost: 4.6496
+Epoch: 038/050 | Batch 0125/0190 | Cost: 3.9350
+Epoch: 038/050 | Batch 0150/0190 | Cost: 3.8064
+Epoch: 038/050 | Batch 0175/0190 | Cost: 3.8101
+CS/MAE/RMSE: | Current Valid: 0.38/8.94/11.35 Ep. 37 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 452.24 min
+Epoch: 039/050 | Batch 0000/0190 | Cost: 3.1158
+Epoch: 039/050 | Batch 0025/0190 | Cost: 3.7473
+Epoch: 039/050 | Batch 0050/0190 | Cost: 3.0278
+Epoch: 039/050 | Batch 0075/0190 | Cost: 3.4719
+Epoch: 039/050 | Batch 0100/0190 | Cost: 4.7153
+Epoch: 039/050 | Batch 0125/0190 | Cost: 4.6845
+Epoch: 039/050 | Batch 0150/0190 | Cost: 3.8293
+Epoch: 039/050 | Batch 0175/0190 | Cost: 3.8566
+CS/MAE/RMSE: | Current Valid: 0.35/9.29/11.67 Ep. 38 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 463.88 min
+Epoch: 040/050 | Batch 0000/0190 | Cost: 3.5750
+Epoch: 040/050 | Batch 0025/0190 | Cost: 3.6876
+Epoch: 040/050 | Batch 0050/0190 | Cost: 3.0250
+Epoch: 040/050 | Batch 0075/0190 | Cost: 3.5801
+Epoch: 040/050 | Batch 0100/0190 | Cost: 4.7680
+Epoch: 040/050 | Batch 0125/0190 | Cost: 3.8921
+Epoch: 040/050 | Batch 0150/0190 | Cost: 3.4351
+Epoch: 040/050 | Batch 0175/0190 | Cost: 3.5424
+CS/MAE/RMSE: | Current Valid: 0.38/8.56/10.86 Ep. 39 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 476.69 min
+Epoch: 041/050 | Batch 0000/0190 | Cost: 3.3870
+Epoch: 041/050 | Batch 0025/0190 | Cost: 3.9983
+Epoch: 041/050 | Batch 0050/0190 | Cost: 3.7290
+Epoch: 041/050 | Batch 0075/0190 | Cost: 3.5559
+Epoch: 041/050 | Batch 0100/0190 | Cost: 4.3926
+Epoch: 041/050 | Batch 0125/0190 | Cost: 3.8782
+Epoch: 041/050 | Batch 0150/0190 | Cost: 3.9522
+Epoch: 041/050 | Batch 0175/0190 | Cost: 3.4356
+CS/MAE/RMSE: | Current Valid: 0.36/9.15/11.49 Ep. 40 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 489.06 min
+Epoch: 042/050 | Batch 0000/0190 | Cost: 3.4370
+Epoch: 042/050 | Batch 0025/0190 | Cost: 3.7165
+Epoch: 042/050 | Batch 0050/0190 | Cost: 2.6187
+Epoch: 042/050 | Batch 0075/0190 | Cost: 3.3611
+Epoch: 042/050 | Batch 0100/0190 | Cost: 5.0921
+Epoch: 042/050 | Batch 0125/0190 | Cost: 4.3198
+Epoch: 042/050 | Batch 0150/0190 | Cost: 3.7970
+Epoch: 042/050 | Batch 0175/0190 | Cost: 3.6559
+CS/MAE/RMSE: | Current Valid: 0.39/8.53/10.83 Ep. 41 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 501.20 min
+Epoch: 043/050 | Batch 0000/0190 | Cost: 3.2265
+Epoch: 043/050 | Batch 0025/0190 | Cost: 3.5238
+Epoch: 043/050 | Batch 0050/0190 | Cost: 3.0609
+Epoch: 043/050 | Batch 0075/0190 | Cost: 3.3301
+Epoch: 043/050 | Batch 0100/0190 | Cost: 4.8332
+Epoch: 043/050 | Batch 0125/0190 | Cost: 3.9599
+Epoch: 043/050 | Batch 0150/0190 | Cost: 3.8396
+Epoch: 043/050 | Batch 0175/0190 | Cost: 2.8113
+CS/MAE/RMSE: | Current Valid: 0.41/7.69/9.70 Ep. 42 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 513.93 min
+Epoch: 044/050 | Batch 0000/0190 | Cost: 3.4405
+Epoch: 044/050 | Batch 0025/0190 | Cost: 3.6066
+Epoch: 044/050 | Batch 0050/0190 | Cost: 3.0415
+Epoch: 044/050 | Batch 0075/0190 | Cost: 3.4046
+Epoch: 044/050 | Batch 0100/0190 | Cost: 4.6129
+Epoch: 044/050 | Batch 0125/0190 | Cost: 3.7579
+Epoch: 044/050 | Batch 0150/0190 | Cost: 2.6089
+Epoch: 044/050 | Batch 0175/0190 | Cost: 3.6939
+CS/MAE/RMSE: | Current Valid: 0.38/8.74/11.05 Ep. 43 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 527.22 min
+Epoch: 045/050 | Batch 0000/0190 | Cost: 3.4729
+Epoch: 045/050 | Batch 0025/0190 | Cost: 3.6059
+Epoch: 045/050 | Batch 0050/0190 | Cost: 3.2853
+Epoch: 045/050 | Batch 0075/0190 | Cost: 3.2852
+Epoch: 045/050 | Batch 0100/0190 | Cost: 4.5587
+Epoch: 045/050 | Batch 0125/0190 | Cost: 3.6067
+Epoch: 045/050 | Batch 0150/0190 | Cost: 3.8011
+Epoch: 045/050 | Batch 0175/0190 | Cost: 3.3883
+CS/MAE/RMSE: | Current Valid: 0.42/7.66/9.84 Ep. 44 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 540.24 min
+Epoch: 046/050 | Batch 0000/0190 | Cost: 3.3562
+Epoch: 046/050 | Batch 0025/0190 | Cost: 3.6596
+Epoch: 046/050 | Batch 0050/0190 | Cost: 3.3130
+Epoch: 046/050 | Batch 0075/0190 | Cost: 2.9762
+Epoch: 046/050 | Batch 0100/0190 | Cost: 4.7994
+Epoch: 046/050 | Batch 0125/0190 | Cost: 3.7250
+Epoch: 046/050 | Batch 0150/0190 | Cost: 3.4880
+Epoch: 046/050 | Batch 0175/0190 | Cost: 2.7547
+CS/MAE/RMSE: | Current Valid: 0.32/10.52/13.16 Ep. 45 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 553.13 min
+Epoch: 047/050 | Batch 0000/0190 | Cost: 2.9539
+Epoch: 047/050 | Batch 0025/0190 | Cost: 3.4438
+Epoch: 047/050 | Batch 0050/0190 | Cost: 2.8369
+Epoch: 047/050 | Batch 0075/0190 | Cost: 2.9585
+Epoch: 047/050 | Batch 0100/0190 | Cost: 4.4594
+Epoch: 047/050 | Batch 0125/0190 | Cost: 3.3449
+Epoch: 047/050 | Batch 0150/0190 | Cost: 3.2752
+Epoch: 047/050 | Batch 0175/0190 | Cost: 3.2378
+CS/MAE/RMSE: | Current Valid: 0.37/8.82/11.17 Ep. 46 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 565.99 min
+Epoch: 048/050 | Batch 0000/0190 | Cost: 2.7754
+Epoch: 048/050 | Batch 0025/0190 | Cost: 3.1520
+Epoch: 048/050 | Batch 0050/0190 | Cost: 2.8824
+Epoch: 048/050 | Batch 0075/0190 | Cost: 2.7454
+Epoch: 048/050 | Batch 0100/0190 | Cost: 4.7877
+Epoch: 048/050 | Batch 0125/0190 | Cost: 3.5395
+Epoch: 048/050 | Batch 0150/0190 | Cost: 3.1299
+Epoch: 048/050 | Batch 0175/0190 | Cost: 2.7926
+CS/MAE/RMSE: | Current Valid: 0.39/8.71/11.12 Ep. 47 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 578.88 min
+Epoch: 049/050 | Batch 0000/0190 | Cost: 3.0490
+Epoch: 049/050 | Batch 0025/0190 | Cost: 3.4531
+Epoch: 049/050 | Batch 0050/0190 | Cost: 2.6534
+Epoch: 049/050 | Batch 0075/0190 | Cost: 3.4516
+Epoch: 049/050 | Batch 0100/0190 | Cost: 4.5984
+Epoch: 049/050 | Batch 0125/0190 | Cost: 3.7493
+Epoch: 049/050 | Batch 0150/0190 | Cost: 3.1922
+Epoch: 049/050 | Batch 0175/0190 | Cost: 3.0900
+CS/MAE/RMSE: | Current Valid: 0.40/8.02/10.22 Ep. 48 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 591.75 min
+Epoch: 050/050 | Batch 0000/0190 | Cost: 2.8126
+Epoch: 050/050 | Batch 0025/0190 | Cost: 3.0017
+Epoch: 050/050 | Batch 0050/0190 | Cost: 2.8485
+Epoch: 050/050 | Batch 0075/0190 | Cost: 2.7114
+Epoch: 050/050 | Batch 0100/0190 | Cost: 4.6225
+Epoch: 050/050 | Batch 0125/0190 | Cost: 3.4485
+Epoch: 050/050 | Batch 0150/0190 | Cost: 2.7485
+Epoch: 050/050 | Batch 0175/0190 | Cost: 2.5873
+CS/MAE/RMSE: | Current Valid: 0.38/8.31/10.59 Ep. 49 | Best Valid :                0.42/7.35/9.26 Ep. 22
+Time elapsed: 604.78 min
+CS/MAE/RMSE: | Train: 0.77/3.55/4.90 | Valid: 0.38/8.31/10.59 |                Test: 0.39/8.43/10.64
+Total Training Time: 609.48 min
